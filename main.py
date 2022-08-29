@@ -162,7 +162,7 @@ def main():
   def life(s1,s2):
     score = LIFE_FONT.render("Life: " + str(lives), 1, LIFE_C)
     WIN.blit(score, (s1,s2))
-  lives = 50
+  lives = 5
   
 
 
